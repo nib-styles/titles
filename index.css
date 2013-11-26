@@ -1,0 +1,154 @@
+/*
+ * Legacy title styles. Mainly used for footer
+ * Various title styles are applied via classes so it doesn't
+ * matter which element you use
+ */
+
+.title-1 {
+  font-size:24px;
+  line-height:30px;
+}
+
+.title-2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.title-3 {
+  font-size:20px;
+  line-height:30px;
+  font-weight:700;
+}
+
+.title-4 {
+  font-size: 10.5px;
+}
+
+.title-5 {
+  font-weight: bold;
+}
+
+.title-6 {
+  font-size:36px;
+  font-weight:300;
+  line-height:40px;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+}
+
+.title-7 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.title-8 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.title-9 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title-10 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.title-11 {
+  font-size:54px;
+  font-weight:200;
+  line-height:1;
+}
+
+.title--small {
+  font-size: 11px;
+  line-height: 14px;
+}
+
+/*
+ * Color  Modifiers
+ */
+
+.t-grey,
+.title--grey {
+  color: #666;
+}
+
+.t-dark-grey,
+.title--dark-grey {
+  color: #444;
+}
+
+.t-white,
+.title--white {
+  color: #fff;
+}
+
+.t-yellow,
+.title--yellow {
+  color: #f9b831;
+}
+
+.t-green,
+.title--green {
+  color: #1f7c07;
+}
+
+/*
+ * Title groups have titles and sub-titles.
+ *
+ * They style these titles use the title classes and provide the correct
+ * spacing. Create these when a group of titles is used more
+ * than once.
+ */
+
+
+/*
+ * .title element should also include '.title-3' class
+ * .sub-title element should include 'truncate-text', '.title-4' and ''.title--caps''
+ */
+.title-group-1 .title {
+  display: block;
+  line-height:20px;
+}
+.title-group-1 .sub-title {
+  display: block;
+  font-weight: normal;
+  line-height:20px;
+}
+
+/*
+ * .title-group-2 has its own default styling
+ * .title-group-2 should also have a class to clear its floats
+ */
+.title-group-2 {
+  border-bottom: 2px solid #007eac;
+}
+.title-group-2 .is-extras {
+  border-color: #7e3e97;
+}
+.title-group-2 .title {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  line-height:20px
+}
+.title-group-2 .sub-title {
+  font-size: 12px;
+}
+
+/*
+ * title-group-3 default styling.
+ */
+.title-group-3 .title {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  line-height:20px
+}
+.title-group-3 .sub-title {
+  font-size: 12px;
+}
